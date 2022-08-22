@@ -62,7 +62,7 @@ class App extends React.Component{
                     </fieldset>
                     <input type='submit' />
                 </form>
-                <div>
+                <div class='groceries'>
                     <ul>
                         {this.state.groceries.map(groceries=>{
                             return( 

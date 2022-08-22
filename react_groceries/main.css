@@ -1,0 +1,56 @@
+:root {
+    --modern-powder-blue: #C5E0EB; 
+  }
+
+  .groceries {
+    flex-basis: 46%;
+    margin: .5em;
+    border:1px solid orange;
+  }  
+form {
+    box-sizing: border-box;
+    flex-basis: 46%;
+    vertical-align: top;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  ul {
+    padding: 0;
+  }
+  
+  label {
+    flex-basis: 20%;
+  }
+
+  input[type="submit"] {
+    flex-basis: 38%;
+    margin: 2em;
+    align-self: center;
+    padding: .5em;
+    font-family: 'Poppins', sans-serif;
+    background: var(--modern-powder-blue);
+    cursor: pointer;
+  }
+
+  
+li {
+    list-style: none;
+    padding: .3em;
+    text-align: center;
+  }
+
+  .container {
+    width : 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input[type="text"], input[type="number"], fieldset{
+    flex-basis: 68%;
+    margin: .2em;
+  }
+
